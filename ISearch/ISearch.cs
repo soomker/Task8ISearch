@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ISearch
+namespace Search
 {
-    public class Class1
+    public interface ISearch
     {
+         string Search(string strToSearch, string param = null);
     }
 }
